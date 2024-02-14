@@ -1,0 +1,10 @@
+#N canvas 827 239 527 327 12;
+#X obj 364 224 snapshot~;
+#X obj 406 184 metro 50;
+#X obj 406 147 loadbang;
+#X obj 278 147 inlet~ (signal);
+#X obj 364 253 outlet (float) signal value;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 0 0;
